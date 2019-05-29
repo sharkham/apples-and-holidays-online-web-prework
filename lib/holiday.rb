@@ -66,7 +66,7 @@ def all_supplies_in_holidays(holiday_hash)
        #proper_caps = individual_holiday.to_s
       #end
 
-      binding.pry
+      #binding.pry
       puts "  #{holiday.to_s.split("_").map(&:capitalize).join(" ")}: #{ingredients.join(", ")}"
     end 
   end 
