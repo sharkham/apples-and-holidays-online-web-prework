@@ -77,7 +77,7 @@ def all_holidays_with_bbq(holiday_hash)
     holidays.each do |holiday, ingredients| 
       if ingredients.include?("BBQ")
         holiday_array << holiday 
-        binding.pry
+       # binding.pry
       end 
     end 
   end 
