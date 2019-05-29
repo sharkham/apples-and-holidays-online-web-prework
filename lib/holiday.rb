@@ -61,11 +61,11 @@ def all_supplies_in_holidays(holiday_hash)
   # etc.
   holiday_hash.each do |season, holidays| 
     holidays.each do |holiday, ingredients| 
-      holiday.to_s.map do |individual_holiday|
-       proper_caps = individual_holiday.to_s
-      end
-     # puts "#{season.capitalize}:"
-     # puts "  #{holiday.to_s.split("_").map(&:capitalize).join(" ")}: #{ingredients.join(", ")}"
+      #holiday.to_s.map do |individual_holiday|
+       #proper_caps = individual_holiday.to_s
+      #end
+      puts "#{season.capitalize}:"
+      puts "  #{holiday.to_s.split("_").map(&:capitalize).join(" ")}: #{ingredients.join(", ")}"
     end 
   end 
 end
